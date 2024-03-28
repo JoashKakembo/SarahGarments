@@ -34,9 +34,48 @@
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 <!--===============================================================================================-->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+<style>
+/* CSS for Floating WhatsApp Icon */
+#whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000; /* Ensure the icon stays on top */
+	font-size: 85px;
+}
+
+#whatsapp-icon a {
+    display: block; /* Ensures the link takes the full space of the icon */
+}
+
+#whatsapp-icon img {
+    width: 60px; /* Adjust icon size as needed */
+    height: auto;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+#whatsapp-icon img:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+
+
+
+</style>
 </head>
 <body class="animsition">
-	
+
+	<div id="whatsapp-icon" class="float">
+		<a href="https://wa.me/+256772346347" target="_blank">
+			<img src="images/whatsapp.png" alt="WhatsApp Icon">
+		</a>
+	</div>
+	  
 	<!-- Header -->
 	<header>
 		<!-- Header desktop -->
@@ -49,20 +88,20 @@
 					</div>
 
 					<div class="right-top-bar flex-w h-full">
-						<a href="#" class="flex-c-m trans-04 p-lr-25">
-							Help & FAQs
+						<a href="https://wa.me/+256772346347" class="flex-c-m trans-04 p-lr-25">
+							WhatsApp
 						</a>
 
 						<a href="#" class="flex-c-m trans-04 p-lr-25">
-							My Account
+							Facebook
 						</a>
 
 						<a href="#" class="flex-c-m trans-04 p-lr-25">
-							EN
+							Instagram
 						</a>
 
 						<a href="#" class="flex-c-m trans-04 p-lr-25">
-							USD
+							Tiktok
 						</a>
 					</div>
 				</div>
@@ -181,20 +220,16 @@
 
 				<li>
 					<div class="right-top-bar flex-w h-full">
-						<a href="#" class="flex-c-m p-lr-10 trans-04">
-							Help & FAQs
+						<a href="https://wa.me/+256772346347" class="flex-c-m trans-04 p-lr-25">
+							WhatsApp
 						</a>
 
-						<a href="#" class="flex-c-m p-lr-10 trans-04">
-							My Account
+						<a href="#" class="flex-c-m trans-04 p-lr-25">
+							Instagram
 						</a>
 
-						<a href="#" class="flex-c-m p-lr-10 trans-04">
-							EN
-						</a>
-
-						<a href="#" class="flex-c-m p-lr-10 trans-04">
-							USD
+						<a href="tel:+256772346347" class="flex-c-m trans-04 p-lr-25">
+							Call Us
 						</a>
 					</div>
 				</li>
@@ -1358,7 +1393,7 @@
 						<a href="product.html" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
 							<div class="block1-txt-child1 flex-col-l">
 								<span class="block1-name ltext-102 trans-04 p-b-8">
-									We Hire Men Suits
+									We Hire </br> Men Suits
 								</span>
 
 								<span class="block1-info stext-102 trans-04">
@@ -1383,7 +1418,7 @@
 						<a href="product.html" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
 							<div class="block1-txt-child1 flex-col-l">
 								<span class="block1-name ltext-102 trans-04 p-b-8">
-									We Hire Men Suits
+									We Hire </br> Men Suits
 								</span>
 
 								<span class="block1-info stext-102 trans-04">
