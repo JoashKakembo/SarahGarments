@@ -34,9 +34,46 @@
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 <!--===============================================================================================-->
+<style>
+	/* CSS for Floating WhatsApp Icon */
+	#whatsapp-icon {
+		position: fixed;
+		bottom: 20px;
+		left: 20px;
+		z-index: 1000;
+		/* Ensure the icon stays on top */
+		font-size: 35px;
+	}
+
+	#whatsapp-icon a {
+		display: block;
+		/* Ensures the link takes the full space of the icon */
+	}
+
+	#whatsapp-icon img {
+		width: 60px;
+		/* Adjust icon size as needed */
+		height: auto;
+		border-radius: 50%;
+		cursor: pointer;
+		transition: transform 0.2s ease-in-out;
+	}
+
+	#whatsapp-icon img:hover {
+		transform: scale(1.1);
+		/* Zoom effect on hover */
+	}
+</style>
 </head>
 <body class="animsition">
 	
+	<div id="whatsapp-icon" class="float">
+		<a href="https://wa.me/+256772346347" target="_blank">
+			<img src="images/whatsapp.png" alt="WhatsApp Icon">
+		</a>
+	</div>
+
+
 	<!-- Header -->
 	<header class="header-v4">
 		<!-- Header desktop -->
